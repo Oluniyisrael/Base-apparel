@@ -1,0 +1,90 @@
+body{
+    background-image: url('C:\Users\ITF-NECA\Desktop\React\base-apparel\src\images\bg-pattern-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+#left{
+
+    width: 50%;
+    /* margin: 10rem; */
+     margin-left: 8rem;
+     padding: 2rem;
+     height: 100%;
+}
+#textcontainer{
+   margin-right: 10rem;
+   margin-top: 9rem;
+    
+}
+#come{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 7rem;
+    font-weight: 500;
+}
+#hello{
+    margin-right: 10%;
+}
+.purple{
+    color: rgb(240 150 173);
+}
+#right{
+    /* background-image: url('C:\Users\ITF-NECA\Desktop\React\base-apparel\src\images\hero-desktop.jpg');
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat; */
+    width: 50%;
+}
+#input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 2rem;
+    border: 2px solid rgb(207, 96, 202);
+    background-color: rgb(255 249 249);
+    margin-top: 5%;
+}
+#arrow{
+    background-color:rgb(207, 96, 202);
+    width: 4rem;
+    height:3rem;
+    border-radius: 2rem;
+    border-color:rgb(207, 96, 202);
+    outline: none;
+}
+#hero{
+height: 99.5vh;
+width: 100%;
+    
+}
+::placeholder{
+    color:  rgb(207, 96, 202);
+}
+@media screen and (max-width: 700px){
+    body{
+        margin: 0;
+    }
+    #right  {
+        display: none;
+    }
+    #textcontainer{
+        margin-right: 8rem;
+        margin-top: 7rem;
+         
+     }
+     #textcontainer{
+        margin-right: 5rem;
+        margin-top: 4rem;
+     }
+     #left{
+
+        width: 100%;
+        /* margin: 10rem; */
+         margin-left: 1rem;
+         padding: 2rem;
+         height: 100%;
+    }
+}
