@@ -16,10 +16,11 @@ function Body() {
               </div>
           </div>
           <div id='right'>
-            <img src={hero} alt='...' id='hero'/>
+            <img src={hero} alt='...' id='hero' />
             
           </div>
     </div>
+    
   )
 }
 
