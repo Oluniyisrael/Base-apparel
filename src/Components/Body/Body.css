@@ -16,6 +16,9 @@ body{
      padding: 2rem;
      height: 94%;
 }
+#mobileimg{
+    display: none;
+}
 #textcontainer{
  
    padding-top: 15%;
@@ -36,6 +39,7 @@ body{
     color: rgb(240 150 173);
 }
 #right{
+
     width: 50%;
     height: 100%;
 }
@@ -71,6 +75,9 @@ width: 50vw;
     #right  {
         display: none;
     }
+    #mobileimg{
+        display: inline;
+    }
     #textcontainer{
         margin-right: 8rem;
         margin-top: 7rem;
@@ -81,6 +88,23 @@ width: 50vw;
         max-height:60% ;
         width: 90%;
      }
+     #come{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 5rem;
+        font-weight: 500;
+    }
+    #mobileimg{
+        margin-top: 2rem;
+        max-width: 90%;
+    }
+    #input{
+        padding: 10px;
+        width: 220px;
+        border-radius: 2rem;
+        border: 2px solid rgb(207, 96, 202);
+        background-color: rgb(255 249 249);
+        margin-top: 5%;
+    }
      .purple{
         color: rgb(240 150 173);
         text-align: center;
@@ -89,8 +113,8 @@ width: 50vw;
         max-width: 100%;
     }
      #left{
-
-        width: 90%;
+        padding-right: 0px;
+        width: 89%;
          margin-left: 1rem;
          padding: 1rem;
          height: 100%;
