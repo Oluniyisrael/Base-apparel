@@ -75,9 +75,9 @@ width: 50vw;
     #right  {
         display: none;
     }
-    #mobileimg{
-        display: inline;
-    }
+    
+       
+   
      #textcontainer{
         padding-top:2%;
         max-height:60% ;
@@ -92,11 +92,17 @@ width: 50vw;
     }
     #mobileimg{
         margin-top: 2rem;
-        max-width: 90%;
+        max-width: 100%; 
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+     #mobileimg img{
+        width: 100%;
     }
     #input{
         padding: 10px;
-        width: 200px;
+        width: 220px;
         border-radius: 2rem;
         border: 2px solid rgb(207, 96, 202);
         background-color: rgb(255 249 249);
@@ -108,6 +114,7 @@ width: 50vw;
     }
     #hello{
         max-width: 100%;
+        font-size: 23px;
     }
      #left{
         padding-right: 0px;

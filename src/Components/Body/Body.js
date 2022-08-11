@@ -10,10 +10,10 @@ function Body() {
       <div id='body'>
           <div id='left'>
               <img src={logo} alt='...'/>
-              <div ><img src={herom} alt=',...' id='mobileimg'/></div>
+              <div id='mobileimg'><img src={herom} alt=',...' /></div>
               <div id='textcontainer'>
                 <span id='come'><span class='purple'>WE'RE </span><br/>COMING SOON!</span>
-                <p class='purple' id='hello' >Hello shoppers! We are currently building our new fashion store. Add your Email below to stay up-to-date with annoucements and our launch deals</p> 
+                <p class='purple' id='hello' >Hello shoppers! We are currently building our new fashion store. Add your Email below to stay up-to-date with annoucements and our launch deals.</p> 
                 <input type='text' id='input' placeholder='example@gmail.com'/><button id='arrow'><img src={arrow} alt='...'/></button>
               </div>
           </div>
