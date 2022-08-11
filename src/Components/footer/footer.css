@@ -1,7 +1,7 @@
 #footer{
     justify-content:end;
     background-color: rgb(36, 35, 35);
-    padding: 1%;
+    padding:1%;
     padding-right: 0;
     height: 8vh;
     width: 100%;
@@ -27,5 +27,6 @@
         padding: 1%;
         height: 11vh;
         width: 98vw;
+        padding-bottom: 3%;
     }
 }
