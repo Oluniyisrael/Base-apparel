@@ -78,15 +78,12 @@ width: 50vw;
     #mobileimg{
         display: inline;
     }
-    #textcontainer{
-        margin-right: 7rem;
-        margin-top: 3rem;
-         
-     }
      #textcontainer{
         padding-top:2%;
         max-height:60% ;
         width: 90%;
+        margin-right: 3rem;
+        margin-top: 3rem;
      }
      #come{
         font-family: 'Courier New', Courier, monospace;
@@ -115,7 +112,7 @@ width: 50vw;
      #left{
         padding-right: 0px;
         width: 89%;
-         margin-left: 1rem;
+         margin-left: 0rem;
          padding: 1rem;
          height: 100%;
     }
