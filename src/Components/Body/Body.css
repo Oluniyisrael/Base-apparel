@@ -1,5 +1,5 @@
 body{
-    background-image: url('../../images/bg-pattern-desktop.svg');
+    /* background-image: url('../../images/bg-pattern-desktop.svg'); */
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -9,12 +9,15 @@ body{
     height: 80%;
     width: 100%;
 }
-#left{
-
-    width: 50%;
-     margin-left: 8rem;
-     padding: 2rem;
-     height: 94%;
+#left {
+    background-image: url('../../images/bg-pattern-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    padding: 2rem;
+    padding-left: 10%;
+    /* display: flex; */
+    /* justify-content: space-around; */
 }
 #mobileimg{
     display: none;
@@ -39,9 +42,15 @@ body{
     color: rgb(240 150 173);
 }
 #right{
-
+max-width: 50%;
     width: 50%;
     height: 100%;
+}
+#inright{
+    background-color: rgb(255 246 246);
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 #input{
     padding: 10px;
@@ -59,14 +68,17 @@ body{
     border-color:rgb(207, 96, 202);
     outline: none;
 }
-#hero{
-height: 87.66vh;
-width: 50vw;
-    
-}
+
 
 ::placeholder{
     color:  rgb(207, 96, 202);
+}
+
+@media screen and (max-width: 1235px){
+    #hero{
+        width: 500px;
+    
+    }
 }
 @media screen and (max-width: 740px){
     body{
@@ -75,9 +87,6 @@ width: 50vw;
     #right  {
         display: none;
     }
-    
-       
-   
      #textcontainer{
         padding-top:2%;
         max-height:60% ;
