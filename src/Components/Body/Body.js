@@ -4,12 +4,13 @@ import hero from '../../images/hero-desktop.jpg'
 import  logo from'../../images/logo.svg'
 import arrow from'../../images/icon-arrow.svg'
 import herom from '../../images/hero-mobile.jpg'
+import { Outlet, Link } from "react-router-dom";
 
 function Body() {
   return (
       <div id='body'>
           <div id='left'>
-              <img src={logo} alt='...'/>
+              <img src={logo} alt='...'/> <Link to="/About" id='leftlink'>ABOUT ME</Link>
               <div id='mobileimg'><img src={herom} alt=',...' /></div>
               <div id='textcontainer'>
                 <span id='come'><span className='purple'>WE'RE </span><br/>COMING SOON!</span>
@@ -18,8 +19,8 @@ function Body() {
               </div>
           </div>
           <div id='right'>
-          <div id='inright'>
-            <img src={hero} alt='...' id='hero' />
+            <div id='inright'>
+              <img src={hero} alt='...' id='hero' />
             </div>
           </div>
           <br/><br/>
